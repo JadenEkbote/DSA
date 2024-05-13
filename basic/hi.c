@@ -26,7 +26,7 @@ int check(char lin[], char pat[100])
                 j++;
                 while(j<n2-1)
                 {
-                    //printf("%c %c\n",lin[i+j],pat[j]);
+                   
                     if(lin[i+j] == pat[j])
                     {
                        status=1;
